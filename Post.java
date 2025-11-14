@@ -114,4 +114,9 @@ public class Post
             return seconds + " seconds ago";
         }
     }
+    
+    public String getUsername()
+    {
+        return username;
+    }
 }
