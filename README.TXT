@@ -81,5 +81,25 @@ the display() methods of messagePost and photoPost.
 
 4. it takes no parameters and is return type is of type string.
 
-
+9. directly defines 5, inherits 69.
  
+10. yes because some can violate some inheritance rules. like arraylist 
+
+11. each room has a value, we use a randomizer to randomize in the range of the room numbers, 
+of course the transporter class extends room and when you enter that room the statemnt triggrs and it randomizes 
+and sends you to that room depending on where it landed for the user. 
+
+12. we make a character class that extends both payer and montser and assign their respective values and fileds.
+
+13. no it should not. 
+14. Device and printer. 
+15. Device 
+16. yes it will compile and it will just call the objet.toString method which turns it into a string anyways. 
+17. this will not work and st is a field and not a string value.
+18. yes it does compile and it will print the names of the studens in the list mylist. what happens is for every st of type object in the myList list its gonna print a line with every st in the list.
+19.1.class T 
+2.class D extends T 
+main. T x = new D(); 
+    
+
+
