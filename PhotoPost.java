@@ -46,4 +46,11 @@ public class PhotoPost extends Post
     {
         return caption;
     }
+    
+    public void display()
+    {
+        super.display();
+        System.out.println(" [" + filename + "]");
+        System.out.println(" " + caption);
+    } 
 }

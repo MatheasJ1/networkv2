@@ -69,3 +69,17 @@ java.util.AbstractList
                                java.util.LinkedList   java.util.Vector
                                                          │
                                                   java.util.Stack
+PART 2 : (Using same file)
+
+1. well it will never compile because the fields that are being assigned in the method come from the post class and 
+are private so they are not able to be called in other classes for security reasons.
+
+2. the messagepost class display method is my prediction. 
+the display() methods of messagePost and photoPost.
+
+3. yes everything works as expected and there isn't any problems with what the method does.
+
+4. it takes no parameters and is return type is of type string.
+
+
+ 

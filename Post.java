@@ -75,7 +75,7 @@ public class Post
     public void display()
     {
         System.out.println(username);
-        System.out.print(timeString(timestamp));
+        /*System.out.print(timeString(timestamp));
         
         if(likes > 0) {
             System.out.println("  -  " + likes + " people like this.");
@@ -89,8 +89,8 @@ public class Post
         }
         else {
             System.out.println("   " + comments.size() + " comment(s). Click here to view.");
-        }
-    }
+        }*/
+    } 
     
     /**
      * Create a string describing a time point in the past in terms 

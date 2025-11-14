@@ -38,4 +38,24 @@ public class MessagePost extends Post
     {
         System.out.println("Mesage post from" +  " " + getUsername());
     }
+    
+    public void display()
+    {
+        
+        System.out.print(message);
+        
+        /*if(likes > 0) {
+            System.out.println("  -  " + likes + " people like this.");
+        }
+        else {
+            System.out.println();
+        }
+        
+        if(comments.isEmpty()) {
+            System.out.println("   No comments.");
+        }
+        else {
+            System.out.println("   " + comments.size() + " comment(s). Click here to view.");
+        }*/
+    } 
 }
