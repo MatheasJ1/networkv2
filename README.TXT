@@ -22,3 +22,50 @@ you do not hav a square anymore but two rectangles.
     2 is good
     5 is good
     b) 3 and 5 is good
+
+14. we have to make it inherit the post class so it is linked to it.
+
+15.           Collection
+    
+       List       Set      Queue
+
+   ArrayList   HashSet   PriorityQueue
+   LinkedList  TreeSet   ArrayDeque
+
+
+                 Map
+
+              HashMap
+              TreeMap
+              
+17. 
+
+                        ComputerComponent
+
+    
+ Processor         Storage         Peripheral     InputDevice
+
+     Memory       DiskDrive Printer  Scanner Keyboard     Mouse
+
+        HDD            DVDDrive
+
+18.     M
+       / \
+      X   T
+        |  
+        O
+19. java.lang.Object
+       │
+java.util.AbstractCollection
+       │
+java.util.AbstractList
+       │
+       ├───────────────────────────────┐
+       │                               │
+ java.util.ArrayList            java.util.AbstractSequentialList
+                                         │
+                                         ├───────────────┐
+                                         │               │
+                               java.util.LinkedList   java.util.Vector
+                                                         │
+                                                  java.util.Stack
